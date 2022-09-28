@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("alliance.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width:150px;
+
+}
+.nav-links{
+    flex:1;
+   text-align:right;
+   
+
+}
+
+.nav-links ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 8px 12px;
+    position:relative;
+    font-size:large;
+    
+}
+
+    
+
+.school{
+    width: 90;
+    color: blue;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+.school h1{
+    margin-top: 100px;
+    font-size: 62px;
+    text-align:center;
+}
+
+   
+
+
+body{
+    background-color:darkslategray ;
+    
+}
+table{
+    
+    color: white;
+    background-color:black;
+    border-collapse: collapse;
+    font-size: 16px;
+    font-family: serif;
+   
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+        
+}
+.body h1{
+    margin-top: 50px;}
+    
+.body table{
+       
+        margin-left: 30%;
+    }
+    
